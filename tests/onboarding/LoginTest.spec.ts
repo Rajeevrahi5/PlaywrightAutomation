@@ -26,7 +26,7 @@ test.describe('Login on AUtomation Excercise', () => {
         console.log('Tests completed!!');
     })
 
-    test.only('Login on automation exercise with invalid credential', async({page}) => {
+    test('Login on automation exercise with invalid credential', async({page}) => {
 
         // Step1: Enter the Automation exercise URL on browser
         await homePage.goToAutomationExerciseURL(testData.url)
