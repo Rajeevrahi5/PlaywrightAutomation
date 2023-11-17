@@ -8,8 +8,6 @@ const testData = JSON.parse(JSON.stringify(require('../../test-data/test-data.js
 
 test('Register a new user',async({page}) => {
 
-    //await page.waitForTimeout(50000);
-   //await page.pause()
    //Object created
     let homePage = new Homepage(page)
     let signupPage  = new SignupPage(page)
