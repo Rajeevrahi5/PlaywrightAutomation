@@ -41,4 +41,8 @@ The test report can be checked by running the following command:
 Email Rajeev Rahi for any queries:
 `rajeev.rahi32@gmail.com`
 
+For more information on playwright automation you can also visit:
+https://playwright.dev/docs/intro
+
+
 
